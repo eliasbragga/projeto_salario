@@ -5,12 +5,18 @@
 }
 
 
+body {
+    scroll-behavior: unset;
+}
+
 
 header {
-    width: 100000px;
+    width: 3600px;
     background-color: black;
     color: white;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.521);
+    position: sticky;
+    
     
 
 }
@@ -36,6 +42,7 @@ nav>a:hover {
 
 header > h1 {
     margin-left: 650px;
+    position: sticky;
     
     padding: 20px;
 }
@@ -114,8 +121,8 @@ p#preal {
 
 .bilhao {
     background-color: rgb(226, 214, 43);
-    width: 1998500px;
-    height: 1500px;
+    width: 1500px;
+    height: 1998500px;
     position: absolute;
     top: 45px;
     left: 1800px;
@@ -133,3 +140,4 @@ p#preal {
     left: 2000px;
     top: 10px;
 }
+
