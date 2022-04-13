@@ -94,7 +94,7 @@ p#preal {
     height: 1000px;
     position: absolute;
     left: 500px;
-    top: 15px;
+    top: 50px;
     margin: 30px;
     border-radius: 50%;
     box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.404);
@@ -105,8 +105,11 @@ p#preal {
     font-size: 15px;
     display: inline-block;
     position: absolute;
-    left: 955px;
+    left: 950px;
     top: 10px;
+    width: 300px;
+    height: 50px;
+    
 }
 
 .bilhao {
