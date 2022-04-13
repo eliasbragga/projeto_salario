@@ -1,0 +1,132 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+
+header {
+    width: 100000px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.521);
+    
+
+}
+
+nav >a {
+   
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+
+nav>a:hover {
+    font-size: 18px;
+    text-decoration: underline;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 2px;
+    
+}
+
+header > h1 {
+    margin-left: 650px;
+    
+    padding: 20px;
+}
+
+main {
+    position: relative;
+}
+
+
+div#real {
+    background-color: rgb(255, 0, 0);
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border: 2px solid black;
+    
+}
+
+p#preal {
+    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: inline-block;
+    
+    top: 10px;
+    left: 20px;
+}
+
+.salario {
+    width: 1.2px;
+    height: 1.2px;
+    background-color: blue;
+    position: absolute;
+    top: 40px;
+    left: 280px;
+    border: 2.5px solid black;
+}
+
+.psalario {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    position: absolute;
+    left: 240px;
+    top: -7px;
+   
+    margin-top:18px ;
+}
+
+.milhao {
+    background-color: rgb(156, 70, 70);
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    left: 500px;
+    top: 15px;
+    margin: 30px;
+    border-radius: 50%;
+    box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.404);
+}
+
+.pmilhao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    position: absolute;
+    left: 955px;
+    top: 10px;
+}
+
+.bilhao {
+    background-color: rgb(226, 214, 43);
+    width: 1998500px;
+    height: 1500px;
+    position: absolute;
+    top: 45px;
+    left: 1800px;
+    border-radius:10px ;
+}
+
+
+
+.pbilhao {
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    position: absolute;
+    left: 2000px;
+    top: 10px;
+}
