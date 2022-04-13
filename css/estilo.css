@@ -7,6 +7,7 @@
 
 body {
     scroll-behavior: unset;
+    max-width: 100vw;
 }
 
 
@@ -96,7 +97,7 @@ p#preal {
 }
 
 .milhao {
-    background-color: rgb(156, 70, 70);
+    background-image: linear-gradient(to right, darkred, yellow);
     width: 1000px;
     height: 1000px;
     position: absolute;
@@ -120,7 +121,7 @@ p#preal {
 }
 
 .bilhao {
-    background-color: rgb(226, 214, 43);
+    background-image: linear-gradient(to right, yellow, darkred);
     width: 1500px;
     height: 1998500px;
     position: absolute;
